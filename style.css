@@ -1,0 +1,43 @@
+* 
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+#boardTitle 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#boardTitle h1 
+{
+    margin: 3% 0% 5% 0%;
+}
+#board 
+{
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 300px;
+}
+.cell 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.cell:nth-child(3n) 
+{
+    border-right: none;
+}
+.cell:nth-child(6) ~ .cell
+{
+    border-bottom: none;
+}
