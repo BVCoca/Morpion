@@ -30,8 +30,10 @@
     justify-content: center;
     height: 100px;
     width: 100px;
+    font-size: 80px;
     border-right: 2px solid black;
     border-bottom: 2px solid black;
+    cursor: pointer;
 }
 .cell:nth-child(3n) 
 {
